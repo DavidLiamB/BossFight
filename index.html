@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <title>BossFight</title>
+</head>
+
+<body>
+  <main class="container-fluid">
+    <section class="row">
+      <div onclick="health(id)" role="button" id="wizard" class="col-3 py-2 px-4">
+        <div class="card text-center">
+          <p>name</p>
+          <p id="face"></p>
+          <p class="hp">hp</p>
+          <p></p>
+        </div>
+      </div>
+      <div onkeypress="health(id)" onclick="health(id)" role="button" id="fairy" class="col-3 py-2 px-4">
+        <div class="card text-center">
+          <p>name</p>
+          <p id="face"></p>
+          <p class="hp">hp</p>
+          <p></p>
+        </div>
+      </div>
+      <div onclick="health(id)" role="button" id="ninja" class="col-3 py-2 px-4">
+        <div class="card text-center">
+          <p>name</p>
+          <p id="face"></p>
+          <p class="hp">hp</p>
+          <p></p>
+        </div>
+      </div>
+      <div onclick="health(id)" role="button" id="king" class="col-3 py-2 px-4">
+        <div class="card text-center">
+          <p>name</p>
+          <p id="face"></p>
+          <p class="hp">hp</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <section class="row justify-content-center">
+      <div onclick="attack()" role="button" id="boss" class="col-5 boss-card text-center rounded p-2">
+        <div class="bg-dark">
+          <p id="health-bar" style="background-color: lightblue; width: 100%;"></p>
+        </div>
+        <p class="boss-name">Wooly</p>
+        <p class="big">🦣</p>
+        <i>lvl: </i>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-2 py-2 px-4">
+        <div class="card">
+          <p id="gold" class="ps-2">gold: 0</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>

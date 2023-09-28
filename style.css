@@ -1,0 +1,27 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1582699011340-21e302507754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+  background-size: cover;
+  user-select: none;
+}
+
+p {
+  margin-bottom: 0;
+  padding-top: .15em;
+  padding-bottom: .10em;
+}
+
+.card {
+  background-color: rgb(73, 73, 73);
+  color: whitesmoke;
+  border: 2px solid white;
+}
+
+.boss-card {
+  background-color: rgb(73, 73, 73);
+  color: whitesmoke;
+  border: 2px solid white;
+}
+
+.big {
+  font-size: 20vh;
+}
